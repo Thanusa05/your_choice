@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vnT-CY-x9o">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="A0Q-Qo-CYn">
+            <objects>
+                <viewController id="vnT-CY-x9o" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ql1-pF-jt5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="oG0-Js-VqV">
+                                <rect key="frame" x="-161" y="-131" width="716" height="1125"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="L1E-m5-V41">
+                                <rect key="frame" x="0.0" y="876" width="414" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" id="cTF-U1-LuG">
+                                <rect key="frame" x="-44" y="156" width="503" height="584"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Choice" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="31" adjustsFontForContentSizeCategory="YES" id="oup-Ng-gVU">
+                                <rect key="frame" x="-10" y="633" width="414" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="54"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift_logo_color" translatesAutoresizingMaskIntoConstraints="NO" id="3zL-ZP-iai">
+                                <rect key="frame" x="307" y="758" width="60" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="l96-o0-vox"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="L1E-m5-V41" secondAttribute="bottom" constant="20" id="Cci-sy-5cR"/>
+                            <constraint firstItem="L1E-m5-V41" firstAttribute="top" secondItem="Ql1-pF-jt5" secondAttribute="top" constant="876" id="XxA-r5-Wgo"/>
+                            <constraint firstItem="l96-o0-vox" firstAttribute="centerX" secondItem="L1E-m5-V41" secondAttribute="centerX" id="YxA-9i-gXI"/>
+                            <constraint firstItem="L1E-m5-V41" firstAttribute="leading" secondItem="l96-o0-vox" secondAttribute="leading" symbolic="YES" id="brJ-BP-HY6"/>
+                            <constraint firstAttribute="centerY" secondItem="Ql1-pF-jt5" secondAttribute="bottom" multiplier="1/3" constant="1" id="mtk-nD-5sB"/>
+                            <constraint firstAttribute="leading" secondItem="l96-o0-vox" secondAttribute="leading" symbolic="YES" id="wAR-mr-s1v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QvP-9v-zcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="710" height="952"/>
+        <image name="Swift_logo_color" width="106.09999847412109" height="106.09999847412109"/>
+        <image name="logo" width="1488" height="2266"/>
+    </resources>
+</document>
