@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1001,
+        "name": "Jonitha",
+        "carModel": "Toyota Prius",
+        "longestDrivingDistance": "20 miles",
+        "canDriveRoundTrip": false
+    },
+    {
+        "id": 1002,
+        "name": "T",
+        "carModel": "Chevy Tahoe",
+        "longestDrivingDistance": "200 miles",
+        "canDriveRoundTrip": false
+    }
+]

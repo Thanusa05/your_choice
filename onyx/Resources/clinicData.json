@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1001,
+        "name": "Spokane Valley Health Center",
+        "phone": "+18669047721",
+        "locationAddress": "12104 E Main Ave, Spokane Valley, WA 99206",
+        "hoursOpen": "Monday, 8:45AM–6PM Tuesday, 7:45AM–6PM Wednesday, 7:45AM–6PM Thursday, 7:45AM–6PM Friday, 7:45AM–5PM",
+        "website": "plannedparenthood.org",
+        "imageName": "spokane.Valley.Health.Center",
+        "review": 4
+    },
+    {
+        "id": 1002,
+        "name": "Bend Health Center",
+        "phone": "+18888757820",
+        "locationAddress": "North Bend Medical Center, 1900 Woodland Dr, Coos Bay, OR 97420",
+
+        
+
+        "hoursOpen": "Monday, 11AM–6:30PM Tuesday, 8:30AM–5PM Wednesday, 8:30AM–5PM Thursday, 8:30AM–5PM Friday, 8:30AM–12:30PM",
+        "website": "plannedparenthood.org",
+        "imageName": "bend.Health.Center",
+        "review": 4
+    },
+    {
+        "id": 1003,
+        "name": "B Street Health Center",
+        "phone": "+19164466921",
+        "locationAddress": "201 29th St Ste. B Ste. B, Sacramento, CA 95816",
+        "hoursOpen": "Monday, 8AM–5PM Tuesday, 8AM–8PM Wednesday, 8AM–5PM Thursday, 8AM–8PM Friday, 8AM–5PM Saturday, 8AM–4:30PM Sunday, 8AM–4:30PM",
+        "website": "plannedparenthood.org",
+        "imageName": "b.Street.Health.Center",
+        "review": 3
+    },
+    {
+        "id": 1004,
+        "name": "Colorado Springs Westside Health Center",
+        "phone": "+17194757162",
+        "locationAddress": "3480 Centennial Blvd, Colorado Springs, CO 80907",
+        "hoursOpen": "Monday, 8AM–6PM Tuesday, 9AM–6PM Wednesday, 8AM–6PM Thursday, 8AM–6PM Friday, 8AM–6PM Saturday, 8AM–3PM",
+        "website": "plannedparenthood.org",
+        "imageName": "colorado.Springs.Westside.Health.Center",
+        "review": 3
+    },
+    {
+        "id": 1005,
+        "name": "Pregnancy Help Center",
+        "phone": "+15754345525",
+        "locationAddress": "1222 N White Sands Blvd # B, Alamogordo, NM 88310",
+        "hoursOpen": "Monday, 9AM–4PM Tuesday, 9AM–4PM Wednesday, 9AM–4PM Thursday, 9AM–4PM",
+        "website": "http://phcalamo.org/",
+        "imageName": "pregnacy.Help.Center",
+        "review": 5
+    },
+    {
+        "id": 1006,
+        "name": "Fairview Heights Health Center",
+        "phone": "+16182776668",
+        "locationAddress": "317 Salem Pl, Fairview Heights, IL 62208",
+        "hoursOpen": "Monday, 8AM–4PM Tuesday, 8AM–4PM  Wednesday, 8AM–4PM Thursday, 11AM–7PM Friday, 8AM–4PM Saturday, 8AM–4PM",
+        "website": "https://www.plannedparenthood.org/health-center/illinois/fairview-heights/62208/fairview-heights-health-center-2712-90770?utm_campaign=fairview-heights-health-center&utm_medium=organic&utm_source=local-listing",
+        "imageName": "fairview.heights.health.Center",
+        "review": 4
+    },
+    {
+        "id": 1007,
+        "name": "Merrimack Valley Women's Health Services",
+        "phone": "+19786887222",
+        "locationAddress": "288 Groveland St, Haverhill, MA 01830",
+        "hoursOpen": "Monday, 9AM–5PM Tuesday, 9AM–5PM Wednesday, 9AM–5PM Thursday, 9AM–5PM Friday, 8AM–3PM",
+        "website": "http://merrimackvalleywomenshealth.com/",
+        "imageName": "merrimack.Valley.Womens.Health.Services",
+        "review": 2
+    },
+    {
+        "id": 1008,
+        "name": "Femi-Care Surgery Center LLC",
+        "phone": "+14433940523",
+        "locationAddress": "1212 York Rd # B101, Timonium, MD 21093",
+        "hoursOpen": "Monday, 9AM–5PM Tuesday, 9AM–5PM Wednesday, 9AM–5PM Thursday, 9AM–5PM Friday, 9AM–4PM Saturday, 8AM–4PM",
+        "website": "https://www.femicaresurgery.com/",
+        "imageName": "femi.Care.Surgery.Center",
+        "review": 3
+    }
+]

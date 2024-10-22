@@ -1,0 +1,14 @@
+[
+    {
+        "time": "13hr 59m",
+        "startingPoint": "Tennessee",
+        "destination": "Newark",
+        "id": 1001
+    },
+    {
+        "time": "2hr 14m",
+        "startingPoint": "Pennsylvania",
+        "destination": "Montclair",
+        "id": 1002
+    }
+]
